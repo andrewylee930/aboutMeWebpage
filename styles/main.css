@@ -32,16 +32,54 @@ nav {
 	color: black;
 	box-sizing: border-box;
 	font-size: 14px;
-	transition: background-color 1.0s ease;
+	transition: background-color 1.7s ease;
+	transition: color 1.7 ease;
 }
 .navlinks a:hover {
 	background-color: black;
 	color: white;
-	border: solid white 1px;
 	box-sizing: border-box;
+	padding: 12px 0px 12px 0px;
+}
+p.signature {
+	font-family: 'Dancing Script', cursive;
+	float: right;
+	padding-right: 15px;
+	font-size: 25px;
+	padding-top: 0px;
+	margin-top: 3px;
+}
+@media (max-width: 485px){
+	p.signature {
+		visibility: hidden;
+	}
+}
+/*Index.html*/
+.index-content {
+	width: 70%;
+	min-height: 600px;
+	margin: auto;
+	border: solid black 1px;
+}
+h1.main-header {
+	text-align: center;
+}
+.main-photo-container {
+	width: 100%;
+	min-height: 300px;
+	border: solid black 1px;
+}
+.main-photo {
+	display: block;
+	width: 500px;
+	padding-top: 20px;
+	margin: auto;	
+}
+.index-content p {
+	text-align: center;
 }
 
-/*images*/
+/*About Me*/
 .photos {
 	width: 90%;
 	min-height: 500px;
@@ -82,4 +120,7 @@ nav {
 	display: block;
 	content: "";
 	clear: both;
+}
+footer {
+
 }

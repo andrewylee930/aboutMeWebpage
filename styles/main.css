@@ -59,7 +59,6 @@ p.signature {
 	width: 70%;
 	min-height: 600px;
 	margin: auto;
-	border: solid black 1px;
 }
 h1.main-header {
 	text-align: center;
@@ -67,7 +66,6 @@ h1.main-header {
 .main-photo-container {
 	width: 100%;
 	min-height: 300px;
-	border: solid black 1px;
 }
 .main-photo {
 	display: block;
@@ -80,6 +78,21 @@ h1.main-header {
 }
 
 /*About Me*/
+.aboutMe-content {
+	width: 70%;
+	margin: auto;
+	min-height: 200px;
+}
+h1.aboutMe-header {
+	text-align: center;
+	margin-bottom: 5px;
+}
+.aboutMe-content p {
+	text-align: center;
+}
+.aboutMe-photo-header {
+	text-align: center;
+}
 .photos {
 	width: 90%;
 	min-height: 500px;
@@ -114,13 +127,24 @@ h1.main-header {
 	}
 }
 
+/*contactMe*/
+.contactMe-header {
+	text-align: center;
+	clear: both;
+}
+.contactMe-info {
+	width: 70%;
+	margin: auto;
+	min-height: 300px;
+}
+.contactMe-info p {
+	text-align: center;
+}
+
 
 /*CLEARFIX*/
 .clearfix {
 	display: block;
 	content: "";
 	clear: both;
-}
-footer {
-
 }
